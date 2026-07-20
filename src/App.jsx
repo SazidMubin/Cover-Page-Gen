@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ruetLogo from './RUET_logo.svg.png';
 import './App.css';
 
 function App() {
@@ -198,7 +199,7 @@ function App() {
                 Heaven's Light is Our Guide
               </div>
               <div className="logo-container">
-                <img src="/logo.png" alt="RUET Logo" />
+                <img src={ruetLogo} alt="RUET Logo" />
               </div>
               
               <div className="uni-name-en">
